@@ -1,0 +1,5 @@
+{
+    "hostname": "broker.emqx.io",
+    "port": 1883,
+    "keepalive": 10
+}

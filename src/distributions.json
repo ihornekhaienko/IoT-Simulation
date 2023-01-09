@@ -1,0 +1,26 @@
+{
+    "constant":
+    {
+        "inv_cdf_file": "distributions.constant",
+        "type": "continious",       
+        "range": [0, 1]
+    },
+    "linear":
+    {
+        "inv_cdf_file": "distributions.linear",
+        "type": "continious",       
+        "range": [0, 1]
+    },
+    "exponential":
+    {
+        "inv_cdf_file": "distributions.exponential",
+        "type": "continious",
+        "range": [0, 1]
+    },
+    "normal_discrete":
+    {
+        "points": [0.0235, 0.135, 0.34, 0.34, 0.135, 0.0235],
+        "type": "discrete",
+        "range": [0, 1]
+    }
+}

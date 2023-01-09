@@ -1,0 +1,20 @@
+{
+    "test_device":
+    {
+        "id": 0,
+        "name": "test_device",
+        "topic": "my_custom_topic",
+        "qos": 0,
+        "frequency": 1,
+        "distribution": {
+            "type": "normal_discrete",
+            "data": {},
+            "range": [0, 1]
+        },
+        "data_channels": 3,
+        "data_type": "celcium",
+        "data_grade": "k",
+        "drop_rate": 0.01
+    }
+
+}
